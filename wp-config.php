@@ -36,7 +36,6 @@ define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-
 /**#@+
  * Authentication Unique Keys and Salts.
  *
@@ -88,3 +87,7 @@ if ( !defined('ABSPATH') )
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
  
+define( 'FS_METHOD', 'direct' );
+
+define( 'DBI_AWS_ACCESS_KEY_ID', 'AKIAJFY3LOGGKVDMOTEQ' );
+define( 'DBI_AWS_SECRET_ACCESS_KEY', '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' );
