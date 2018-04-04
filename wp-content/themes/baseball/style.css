@@ -1,0 +1,290 @@
+/*
+Theme Name: Frist Theme
+Author: Ryan
+Version: 1
+*/
+
+
+body{
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  /*background-image: url('placeholder.png'); */ 
+
+}
+
+p{
+  line-height: 1.65em;
+}
+
+a:link,a:visited{
+  color: #006ec3;
+}
+
+
+.wrapper{
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.has_thumbnail{
+  position: relative;
+  padding-left: 200px;
+}
+
+.post_thumbnail{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.post{
+  border-bottom: 2px dotted #bbb;
+}
+
+
+.post h2{
+  margin-bottom: 0;
+}
+
+.post_info{
+  color: #999;
+  font-size: 95%;
+  margin-top: 5px;
+}
+.post_info a{
+  color: #999;
+  font-size: 95%;
+
+}
+
+.post:last-of-type{
+  border-bottom:  none;
+}
+
+.post-aside{
+  font-size: 125%;
+  background-color: #fff5cb;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0,0, 0,.1);
+  margin-top: 5px;
+}
+.post-aside p{
+  margin: 0;
+}
+.mini-meta{
+  font-size: 68%;
+  margin: 0;
+  color: #777;
+}
+
+.post-link{
+  font-size: 125%;
+  background-color: #e0ebff;
+  padding: 0px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0,0, 0,.1);
+  margin-top: 5px;
+}
+.post-link a{
+  display: block;
+  padding: 20px;
+}
+
+.post-gallery{
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  margin-top: 5px;
+}
+.post-gallery h2{
+  text-align: center;
+}
+.post-gallery img{
+  border: none !important;
+}
+
+.parent_link{
+  font-weight: bold;
+  float: left;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px dotted #999;
+  font-size: 110%;
+}
+.parent_link a{
+  text-decoration: none;
+}
+
+.parent_nav{
+  margin-top: 25px;
+}
+.parent_nav li{
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px dotted #999;
+}
+.parent_nav li a{
+  text-decoration: none;
+}
+.parent_nav li.current_page_item a{
+  color: #333;
+  cursor: default;
+}
+
+
+
+
+.parent_nav li:last-of-type{
+  margin-right: 0px;
+  padding-right: 0px;
+  border-right: none;
+}
+
+.site_header{
+  border-bottom: 2px solid #999;
+}
+
+
+.site_footer{
+  margin-top: 30px;
+  border-top: 2px solid #999;
+  clear: both;
+}
+
+.footer-widget-area{
+  width: 25%;
+  float: left;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+
+
+/*Navigation*/
+.nav{
+
+}
+.nav ul {
+   margin-top: 10px;
+   padding: 0;
+   *zoom: 1;
+   margin-bottom: 0;
+ }
+.nav ul:before, .nav ul:after {
+    content: "";
+    display: table;
+  }
+.nav ul:after {
+  clear: both;
+}
+
+.nav ul li {
+   list-style: none;
+   float: left;
+ }
+
+/*Header Menu*/
+.site_header .nav ul li {
+   margin-right: 5px;
+  }
+  .site_header .nav ul li a:link, .site_header .nav ul li a:visited {
+     display: block;
+     padding: 10px 18px;
+     border: 1px solid #bbb;
+      border-bottom: none;
+      text-decoration: none;
+    }
+   .site_header .nav ul li a:hover {
+      background-color: rgb(245, 245, 245);
+    }
+    /*WP selector class current-menu-item*/
+   .site_header .nav ul li.current-menu-item a:link, .site_header .nav ul li.current-menu-item a:visited {
+      background-color: rgb(126, 196, 142);
+      color: rgb(255, 255, 255);
+    }
+    .site_header .nav ul li.current-page-ancestor a:link,.site_header .nav ul li.current-page-ancestor a:visited{
+      background-color: rgb(126, 196, 142);
+      color: rgb(255, 255, 255);
+    }
+   /*Footer Menu*/
+   .site_footer .nav ul li {
+      margin-right: 10px;
+      padding-right: 10px;
+      border-right: 1px dotted #bbb;
+    }
+
+    /* Page Layout */
+
+    .page h2{
+      font-size: 300%;
+
+    }
+
+
+    .info_box{
+      width: 30%;
+      float: right;
+      margin: 0 0 30px 30px;
+      padding: 20px;
+      background-color: #EEE;
+    }
+    .info_box h4{
+      margin-bottom: 6px;
+    }
+    .info_box p{
+      font-size: 85%;
+    }
+
+
+
+/*SEARCH*/
+
+.search_form{
+  float: right;
+}
+
+.search_form span{
+  display: none;
+}
+
+.search_form .search-submit{
+  background-color: #006ec3;
+  color: white;
+  padding:5px 14px;
+  border: none;
+  vertical-align: top;
+}
+
+
+.search_form .search-field{
+  padding:3px 0px;
+  vertical-align: top;
+}
+
+
+
+/*COLUMNS*/
+.site-content{
+
+}
+.main-column{
+  width: 66%;
+  float: left;
+}
+.secondary-column{
+  width: 33%;
+  float: right;
+}
+
+/*HALFS*/
+.half{
+  width: 45%;
+  float: left;
+  margin-right: 10px;
+}
+.last{
+  margin-right: 0;
+}
