@@ -344,3 +344,34 @@ a:link,a:visited{
   float: right;
   margin-right:0;
 }
+
+/******************************************************SINGLE PAGE*****************************************/
+
+#single_wrapper{
+  
+}
+#single_wrapper img{
+  display: inline-block;
+}
+.item_info {
+  font-family: 'Cabin', sans-serif;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 8em;
+  padding-top: 2em;
+}
+.item_info h2{
+  font-size: 3em;
+  margin-bottom: 0;
+}
+.item_info  .price{
+  font-size: 1.8em;
+  margin-top: .5em;
+}
+.item_desc{
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.7em;
+  line-height: 1.5em;
+  padding:1em 4em;
+}
+/******************************************************SINGLE PAGE*****************************************/

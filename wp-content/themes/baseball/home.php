@@ -12,7 +12,7 @@ get_header();
 	<img src='hat.png'>
 	<div class="banner_text">
 		<h2>Headware</h2>
-		<p>From on field caps to winter hats! <br>We have every time and mutiple styles and sizes.<br><br><a href="#">Check them out!</a></p>
+		<p>From on field caps to winter hats! <br>We have every time and mutiple styles and sizes.<br><br><a href="/baseball/category/headware/">Check them out!</a></p>
 	</div>
 </div>
 
