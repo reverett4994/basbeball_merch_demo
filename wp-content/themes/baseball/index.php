@@ -1,6 +1,7 @@
 <?php
 get_header();
 ?>
+<h1>Showing <?php echo single_cat_title() ?></h1>
 <div class="site-content clearfix">
   <div class="main-column">
     <?php if(have_posts()) :

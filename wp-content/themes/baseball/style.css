@@ -28,83 +28,7 @@ a:link,a:visited{
   padding: 0 20px;
 }
 
-.has_thumbnail{
-  position: relative;
-  padding-left: 200px;
-}
 
-.post_thumbnail{
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.post{
-  border-bottom: 2px dotted #bbb;
-}
-
-
-.post h2{
-  margin-bottom: 0;
-}
-
-.post_info{
-  color: #999;
-  font-size: 95%;
-  margin-top: 5px;
-}
-.post_info a{
-  color: #999;
-  font-size: 95%;
-
-}
-
-.post:last-of-type{
-  border-bottom:  none;
-}
-
-.post-aside{
-  font-size: 125%;
-  background-color: #fff5cb;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 3px 3px 3px rgba(0,0, 0,.1);
-  margin-top: 5px;
-}
-.post-aside p{
-  margin: 0;
-}
-.mini-meta{
-  font-size: 68%;
-  margin: 0;
-  color: #777;
-}
-
-.post-link{
-  font-size: 125%;
-  background-color: #e0ebff;
-  padding: 0px;
-  border-radius: 5px;
-  box-shadow: 3px 3px 3px rgba(0,0, 0,.1);
-  margin-top: 5px;
-}
-.post-link a{
-  display: block;
-  padding: 20px;
-}
-
-.post-gallery{
-  background-color: #222;
-  color: #fff;
-  padding: 20px;
-  margin-top: 5px;
-}
-.post-gallery h2{
-  text-align: center;
-}
-.post-gallery img{
-  border: none !important;
-}
 
 .parent_link{
   font-weight: bold;
@@ -288,6 +212,19 @@ a:link,a:visited{
 .last{
   margin-right: 0;
 }
+
+
+/******************************************************HEADER*****************************************/
+
+.header{
+  width: 100%;
+  height: 6.5em;
+  background-color: skyblue;
+}
+
+
+/******************************************************HEADER*****************************************/
+
 /******************************************************BANNER DIVS*****************************************/
 .one{
   background-color: #00fcff;
@@ -344,6 +281,31 @@ a:link,a:visited{
   float: right;
   margin-right:0;
 }
+
+/******************************************************INDEX PAGE*****************************************/
+.main-column{
+  width: 100%;
+}
+.post{
+  width: 30%;
+  display: inline-block;
+}
+.post a{
+  color: black
+}
+.post_thumbnail ,.post_thumbnail img{
+  width: 100%;
+  height: auto;
+}
+.post h2 ,.post h2 a{
+  text-align: center;
+  color: black;
+}
+.post_info{
+  font-size: .88em;
+}
+/******************************************************INDEX PAGE*****************************************/
+
 
 /******************************************************SINGLE PAGE*****************************************/
 

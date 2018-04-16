@@ -1,10 +1,10 @@
 <div class="post <?php if (has_post_thumbnail()){?>has_thumbnail <?php } ?>">
   <div class="post_thumbnail">
-    <a href="<?php the_permalink();?>"> <?php the_post_thumbnail('small-thumbnail') ?></a>
+    <a href="<?php the_permalink();?>"> <?php the_post_thumbnail('menu') ?></a>
   </div>
   <h2><a href="<?php the_permalink();?>"> <?php the_title(); ?></a></h2>
-  <p class='post_info'> <?php the_time('F jS, Y'); ?> | by <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php the_author()?></a>
-  | Posted in <?php
+  <p class='post_info'> Added on <?php the_time('F jS, Y'); ?> | 
+    <?php
 
     $cats= get_the_category();
     $separator= ", ";
