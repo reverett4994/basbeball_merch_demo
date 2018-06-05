@@ -17,19 +17,20 @@
  *
  * @package WordPress
  */
-
+define('WP_HOME','http://happydoggie.cloudaccess.host/');
+define('WP_SITEURL','http://happydoggie.cloudaccess.host/');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'baseball');
+define('DB_NAME', 'jjaaqtqe');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'jjaaqtqe');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'z[2AlCfY7yZ5!7');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'db');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
@@ -75,8 +76,14 @@ $table_prefix  = 'wp_';
  * visit the Codex.
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
+ *define('WP_DEBUG', false); removed from below in favor of the following 4 lines
  */
+
+ini_set('display_errors','Off');
+ini_set('error_reporting', E_ALL );
 define('WP_DEBUG', false);
+define('WP_DEBUG_DISPLAY', false);
+
 
 /* That's all, stop editing! Happy blogging. */
 
@@ -91,3 +98,4 @@ define( 'FS_METHOD', 'direct' );
 
 define( 'DBI_AWS_ACCESS_KEY_ID', 'AKIAJFY3LOGGKVDMOTEQ' );
 define( 'DBI_AWS_SECRET_ACCESS_KEY', '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' );
+

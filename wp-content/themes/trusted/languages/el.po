@@ -1,0 +1,690 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Project-Id-Version: Trusted 1.1.11\n"
+"POT-Creation-Date: 2017-11-21 14:23+0000\n"
+"PO-Revision-Date: 2017-12-29 11:20+0000\n"
+"Last-Translator: gas <gas@otenet.gr>\n"
+"Language-Team: Greek\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: el\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:11
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Αυτή η σελίδα δε βρέθηκε."
+
+#: 404.php:13
+msgid "Maybe try a search?"
+msgstr "Ίσως να δοκιμάζατε την αναζήτηση;"
+
+#: 404.php:15
+msgid "Browse our pages."
+msgstr "Περιηγηθείτε στις σελίδες μας."
+
+#. translators: %s: post title
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Μια απάντηση στο &ldquo;%s&rdquo;"
+
+#: comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s απάντηση στο &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Απαντήσεις στο &ldquo;%2$s&rdquo;"
+
+#: comments.php:62
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: comments.php:63
+msgid "Next"
+msgstr "Επόμενο"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Τα σχόλια είναι απενεργοποιημένα."
+
+#: functions.php:35
+msgid "Primary Menu"
+msgstr "Πρωτεύον μενού"
+
+#: functions.php:36
+msgid "Footer Menu"
+msgstr "Μενού υποσέλιδου"
+
+#: functions.php:93
+msgid "Person Working on Laptop"
+msgstr "Άτομο δουλεύει στο Laptop"
+
+#: functions.php:119
+msgid "Blog Sidebar"
+msgstr "Πλευρική στήλη ιστολογίου"
+
+#: functions.php:121
+msgid "Sidebar for posts, blog index and archives."
+msgstr "Πλευρική στήλη για αναρτήσεις, ευρετήριο ιστολογίου και αρχείο"
+
+#: functions.php:129
+msgid "Home Page Sidebar"
+msgstr "Πλευρική στήλη αρχικής σελίδας"
+
+#: functions.php:131
+msgid "Sidebar for the home page template."
+msgstr "Πλευρική στήλη για το πρότυπο της αρχικής σελίδας."
+
+#: functions.php:139
+msgid "Page Sidebar"
+msgstr "Πλευρική στήλη σελίδας"
+
+#: functions.php:141
+msgid "Sidebar for standard pages."
+msgstr "Πλευρική στήλη για στάνταρ σελίδες."
+
+#: functions.php:149
+msgid "Shop Sidebar"
+msgstr "Πλευρική στήλη καταστήματος"
+
+#: functions.php:151
+msgid "Sidebar for WooCommerce pages."
+msgstr "Πλευρική στήλη για σελίδες WooCommerce."
+
+#: functions.php:159
+msgid "Top Bar"
+msgstr "Μπάρα κορυφής"
+
+#: functions.php:161
+msgid "Add your own content above the header."
+msgstr "Προσθέστε το δικό σας περιεχόμενο πάνω από τη κεφαλίδα."
+
+#: functions.php:169
+msgid "Footer Column 1"
+msgstr "Στήλη υποσέλιδου 1"
+
+#: functions.php:179
+msgid "Footer Column 2"
+msgstr "Στήλη υποσέλιδου 2"
+
+#: functions.php:189
+msgid "Footer Column 3"
+msgstr "Στήλη υποσέλιδου 3"
+
+#: functions.php:199
+msgid "Middle Footer"
+msgstr "Κεντρικό υποσέλιδο"
+
+#: functions.php:225 functions.php:277
+msgctxt "Google fonts: on or off"
+msgid "on"
+msgstr "Ενεργές"
+
+#: functions.php:240 functions.php:288
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "χωρίς υποσύνολο"
+
+#: functions/customizer.php:24
+msgid "Site Title Color"
+msgstr "Χρώμα τίτλου ιστοχώρου"
+
+#: functions/customizer.php:38
+msgid "Disable Static Front Page Content"
+msgstr "Απενεργοποίηση στατικού περιεχομένου αρχικής σελίδας"
+
+#: functions/customizer.php:57
+msgid "Phone Number"
+msgstr "Τηλεφωνικός αριθμός"
+
+#: functions/customizer.php:74
+msgid "Site Title UPPERCASE"
+msgstr "Τίτλος ιστοχώρου ΜΕ ΚΕΦΑΛΑΙΑ"
+
+#: functions/customizer.php:92
+msgid "Horizontal Offset (%)"
+msgstr "Οριζόντιο αντιστάθμισμα (%)"
+
+#: functions/customizer.php:93
+msgid ""
+"Used to make the main focus of your image appear on smaller screens or where "
+"the image is wider than the visible screen. The default setting is 65%."
+msgstr ""
+"Χρησιμοποιείται για να εμφανίζεται το κύριο μέρος της εικόνας σας σε "
+"μικρότερες οθόνες ή όπου η εικόνα είναι ευρύτερη από την ορατή περιοχή. Η "
+"προεπιλεγμένη ρύθμιση είναι 65%."
+
+#: functions/customizer.php:117
+msgid "Background Color"
+msgstr "Χρώμα φόντου"
+
+#: functions/customizer.php:118
+msgid ""
+"Only takes effect if not using an image or an image with some transparency."
+msgstr ""
+"Το αποτέλεσμα φαίνεται μόνο όταν δε χρησιμοποιείτε εικόνα ή εικόνα με "
+"διαφάνεια."
+
+#: functions/customizer.php:136
+msgid "Color"
+msgstr "Χρώμα"
+
+#: functions/customizer.php:155
+msgid "No Color (Transparent Background)"
+msgstr "Χωρίς χρώμα (Διαφανές φόντο)"
+
+#: functions/customizer.php:164 functions/theme-help.php:70
+msgid "Theme Options"
+msgstr "Επιλογές θέματος"
+
+#: functions/customizer.php:181
+msgid "Enable Reveal Animations"
+msgstr "Ενεργοποίηση εμφάνισης στοιχείων με κίνηση"
+
+#: functions/customizer.php:198
+msgid "Primary Menu Centered"
+msgstr "Πρωτεύον μενού κεντραρισμένο"
+
+#: functions/customizer.php:216
+msgid "Primary Menu UPPERCASE"
+msgstr "Πρωτεύον μενού ΜΕ ΚΕΦΑΛΑΙΑ"
+
+#: functions/customizer.php:233
+msgid "Show Search Icon In Menu"
+msgstr "Εμφάνιση εικονιδίου αναζήτησης στο Μενού"
+
+#: functions/customizer.php:234
+msgid ""
+"Search icon will only display if you have set your own menu as Primary Menu "
+"in Appearance >> Menus"
+msgstr ""
+"Το εικονίδιο αναζήτησης θα εμφανιστεί μόνο αν έχετε ορίσει το δικό σας μενού "
+"ως Κύριο μενού στην Εμφάνιση >> Μενού"
+
+#: functions/customizer.php:252
+msgid "Disable Headings Underline"
+msgstr "Απενεργοποίηση υπογράμμισης κεφαλίδων"
+
+#: functions/customizer.php:253
+msgid "H1, H2, H3, H4, H5, H6 headings in post/page content"
+msgstr "Κεφαλίδες H1, H2, H3, H4, H5, H6 στο περιεχόμενο αναρτήσεων/σελίδων"
+
+#: functions/customizer.php:273
+msgid "Page Title Icon"
+msgstr "Εικονίδιο τίτλου σελίδας"
+
+#: functions/customizer.php:293
+msgid "Blog Title Icon"
+msgstr "Εικονίδιο τίτλου ιστολογίου"
+
+#: functions/customizer.php:313
+msgid "Shop Title Icon"
+msgstr "Εικονίδιο τίτλου καταστήματος"
+
+#: functions/customizer.php:314
+msgid "Requires WooCommerce Plugin"
+msgstr "Απαιτεί το πρόσθετο WooCommerce"
+
+#: functions/customizer.php:327 functions/customizer.php:701
+msgid "Sidebar Position"
+msgstr "Θέση πλευρικής στήλης"
+
+#: functions/customizer.php:331
+msgid "Left"
+msgstr "Αριστερά"
+
+#: functions/customizer.php:332
+msgid "Right"
+msgstr "Δεξιά"
+
+#: functions/customizer.php:344
+msgid "Header Style"
+msgstr "Στυλ κεφαλίδας"
+
+#: functions/customizer.php:348
+msgid "Dark"
+msgstr "Σκοτεινό"
+
+#: functions/customizer.php:349
+msgid "Light"
+msgstr "Φωτεινό"
+
+#: functions/customizer.php:366
+msgid "Primary Color"
+msgstr "Πρωτεύον χρώμα"
+
+#: functions/customizer.php:386
+msgid "Secondary Color"
+msgstr "Δευτερεύον χρώμα"
+
+#: functions/customizer.php:406
+msgid "Text Color"
+msgstr "Χρώμα κειμένου"
+
+#: functions/customizer.php:426
+msgid "Headings Color"
+msgstr "Χρώμα κεφαλίδων"
+
+#: functions/customizer.php:435
+msgid "Typography"
+msgstr "Τυπογραφία"
+
+#: functions/customizer.php:446
+msgid "Header"
+msgstr "Κεφαλίδα"
+
+#: functions/customizer.php:459
+msgid "Navigation"
+msgstr "Πλοήγηση"
+
+#: functions/customizer.php:472
+msgid "Page Title"
+msgstr "Τίτλος σελίδας"
+
+#: functions/customizer.php:485
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: functions/customizer.php:498
+msgid "Headings"
+msgstr "Κεφαλίδες"
+
+#: functions/customizer.php:511
+msgid "Footer"
+msgstr "Υποσέλιδο"
+
+#: functions/customizer.php:521
+msgid "Static Homepage Options"
+msgstr "Επιλογές στατικής αρχικής σελίδας"
+
+#: functions/customizer.php:531
+msgid "Featured Services"
+msgstr "Προτεινόμενες υπηρεσίες"
+
+#: functions/customizer.php:532
+msgid ""
+"By default this displays the 3 most recent posts. To override this, select a "
+"page for the first feature."
+msgstr ""
+"Από προεπιλογή, αυτό εμφανίζει τις 3 πιο πρόσφατες αναρτήσεις. Για να το "
+"παρακάμψετε, επιλέξτε μια σελίδα για το πρώτο προτεινόμενο."
+
+#: functions/customizer.php:549
+msgid "Activate Featured Section"
+msgstr "Ενεργοποίηση τομέα προτεινόμενων"
+
+#: functions/customizer.php:566
+msgid "Enable 'Read More' Buttons"
+msgstr "Ενεργοποίηση κουμπιών 'Διαβάστε περισσότερα'"
+
+#: functions/customizer.php:588
+msgid "Feature "
+msgstr "Προτεινόμενο"
+
+#: functions/customizer.php:609
+msgid "Icon"
+msgstr "Εικονίδιο"
+
+#: functions/customizer.php:627 functions/customizer.php:691
+msgid "Select Page"
+msgstr "Επιλογή σελίδας"
+
+#: functions/customizer.php:628
+msgid ""
+"Displays title and excerpt of selected page. You can add an optional hand-"
+"crafted excerpt in the page editor (make sure []excerpt is checked in Screen "
+"Options)."
+msgstr ""
+"Εμφανίζει τον τίτλο και το απόσπασμα της επιλεγμένης σελίδας. Μπορείτε να "
+"προσθέσετε ένα προαιρετικό προσαρμοσμένο απόσπασμα στον επεξεργαστή σελίδας "
+"(βεβαιωθείτε ότι το [απόσπασμα] είναι επιλεγμένο στις Επιλογές)."
+
+#: functions/customizer.php:638
+msgid "About Section"
+msgstr "Τομέας Περί"
+
+#: functions/customizer.php:639
+msgid "Displays title, excerpt and featured image of selected page."
+msgstr ""
+"Εμφανίζει τον τίτλο, απόσπασμα και προτεινόμενη εικόνα της επιλεγμένης "
+"σελίδας."
+
+#: functions/customizer.php:656
+msgid "Activate About Section"
+msgstr "Ενεργοποίηση τομέα Περί"
+
+#: functions/customizer.php:673
+msgid "Enable 'Read More' Button"
+msgstr "Ενεργοποίηση κουμπιού 'Διαβάστε Περισσότερα'"
+
+#: functions/customizer.php:705
+msgid "Image Left"
+msgstr "Εικόνα αριστερά"
+
+#: functions/customizer.php:706
+msgid "Image Right"
+msgstr "Εικόνα δεξιά"
+
+#: functions/customizer.php:707
+msgid "Stacked"
+msgstr "Στοιβαγμένα"
+
+#: functions/customizer.php:708
+msgid "Stacked (Centered)"
+msgstr "Στοιβαγμένα (Κεντραρισμένα)"
+
+#: functions/customizer.php:717
+msgid "Shop Tabs"
+msgstr "Καρτέλες καταστήματος"
+
+#: functions/customizer.php:736
+msgid "Activate Shop Tabs"
+msgstr "Ενεργοποίηση καρτελών καταστήματος"
+
+#: functions/customizer.php:737
+msgid "Requires WooCommerce Plugin."
+msgstr "Απαιτεί το πρόσθετο WooCommerce."
+
+#: functions/customizer.php:764
+msgid "Home Page Shop Tabs"
+msgstr "Καρτέλες αρχικής σελίδας καταστήματος"
+
+#: functions/customizer.php:774
+msgid "Call-to-action Panel"
+msgstr "Πλαίσιο Κλήσης Ενέργειας (Call-to-action)"
+
+#: functions/customizer.php:775
+msgid "Displays phone number and optional button link to selected page."
+msgstr ""
+"Εμφανίζει τηλεφωνικό αριθμό και προαιρετικό κουμπί συνδέσμου σε επιλεγμένη "
+"σελίδα."
+
+#: functions/customizer.php:792
+msgid "Activate Call-to-action Panel"
+msgstr "Ενεργοποίηση πλαισίου Κλήσης Ενέργειας (Call-to-action)"
+
+#: functions/customizer.php:810
+msgid "Select Page For Button Link"
+msgstr "Επιλέξτε σελίδα για τον σύνδεσμο του κουμπιού"
+
+#: functions/customizer.php:827
+msgid "Background Image"
+msgstr "Εικόνα φόντου"
+
+#: functions/customizer.php:836 functions/customizer.php:847
+#: functions/customizer.php:909
+msgid "Go Pro"
+msgstr "Go Pro"
+
+#: functions/customizer.php:838 functions/theme-help.php:86
+msgid ""
+"Upgrade to Trusted Pro for even more cool features and customization options."
+msgstr ""
+"Αναβαθμίστε στο Trusted Pro για περισσότερα φοβερά χαρακτηριστικά και "
+"επιλογές προσαρμογής."
+
+#: functions/customizer.php:892
+msgid "More options available"
+msgstr "Περισσότερες επιλογές διαθέσιμες"
+
+#: functions/customizer.php:901
+msgid "Documentation"
+msgstr "Τεκμηρίωση"
+
+#: functions/extras.php:33
+msgid "Create your Primary Menu here"
+msgstr "Δημιουργήστε το πρωτεύων μενού σας εδώ"
+
+#: functions/extras.php:64 functions/extras.php:700 functions/extras.php:731
+#: functions/extras.php:787
+msgid "Read More"
+msgstr "Διαβάστε περισσότερα"
+
+#: functions/extras.php:332 functions/extras.php:345
+msgid "Search for:"
+msgstr "Αναζήτηση για:"
+
+#: functions/extras.php:337
+msgid "All"
+msgstr "Όλα"
+
+#: functions/extras.php:345
+msgid "Search "
+msgstr "Αναζήτηση"
+
+#: functions/extras.php:387
+msgid "Login"
+msgstr "Είσοδος"
+
+#: functions/extras.php:388
+msgid "Register"
+msgstr "Εγγραφή"
+
+#. translators: %1$s: user display name, %2$s: logout url
+#: functions/extras.php:435 functions/extras.php:467
+#, php-format
+msgid "Hello %1$s (not %1$s? "
+msgstr "Γεια σας %1$s (Δεν είστε ο/η %1$s; "
+
+#: functions/extras.php:435 functions/extras.php:467
+msgid "Log out"
+msgstr "Αποσύνδεση"
+
+#: functions/extras.php:435 functions/extras.php:467
+msgid " )"
+msgstr " )"
+
+#: functions/extras.php:640
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Αποτελέσματα αναζήτησης για: %s"
+
+#: functions/extras.php:643
+msgid "404 Error"
+msgstr "Σφάλμα 404"
+
+#: functions/extras.php:919
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: functions/extras.php:919
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Υπερήφανα τροφοδοτείται από %s"
+
+#: functions/extras.php:921
+#, php-format
+msgid "Theme: %2$s by %1$s"
+msgstr "Θέμα: %2$s από %1$s"
+
+#: functions/extras.php:949
+msgid "Recent"
+msgstr "Πρόσφατο"
+
+#: functions/extras.php:955
+msgid "Featured"
+msgstr "Προτεινόμενο"
+
+#: functions/extras.php:961
+msgid "Sale"
+msgstr "Πώληση"
+
+#: functions/extras.php:967
+msgid "Top Selling"
+msgstr "Με περισσότερες πωλήσεις"
+
+#: functions/extras.php:973
+msgid "Top Rated"
+msgstr "Κορυφαία βαθμολογία"
+
+#: functions/template-tags.php:36
+msgid "No Comments"
+msgstr "Χωρίς σχόλια"
+
+#: functions/template-tags.php:38
+msgid " Comments"
+msgstr "Σχόλια"
+
+#: functions/template-tags.php:40
+msgid "1 Comment"
+msgstr "1 Σχόλιο"
+
+#. translators: used between list items, there is a space after the comma
+#: functions/template-tags.php:61
+msgid ", "
+msgstr ", "
+
+#. translators: %s: Name of current post
+#: functions/template-tags.php:76 template-parts/content-page.php:27
+#, php-format
+msgid "Edit %s"
+msgstr "Επεξεργασία %s"
+
+#: functions/theme-help.php:19 functions/theme-help.php:32
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr "Καλώς ήλθατε στο %1$s %2$s"
+
+#: functions/theme-help.php:19
+msgid "Theme Help"
+msgstr "Βοήθεια θέματος"
+
+#: functions/theme-help.php:38
+msgid "Theme Links"
+msgstr "Σύνδεσμοι θέματος"
+
+#: functions/theme-help.php:39
+msgid "Theme Page"
+msgstr "Σελίδα θέματος"
+
+#: functions/theme-help.php:40
+msgid "Theme Demo"
+msgstr "Επίδειξη θέματος"
+
+#: functions/theme-help.php:41 functions/theme-help.php:57
+msgid "Theme Documentation"
+msgstr "Τεκμηρίωση θέματος"
+
+#: functions/theme-help.php:42
+msgid "Theme Support"
+msgstr "Υποστήριξη θέματος"
+
+#: functions/theme-help.php:43
+msgid "Rate this theme"
+msgstr "Αξιολογήστε αυτό το θέμα"
+
+#: functions/theme-help.php:50
+#, php-format
+msgid "Getting Started with %s"
+msgstr "Ξεκινώντας με το %s"
+
+#: functions/theme-help.php:60
+msgid ""
+"Do you need help to setup, configure and configure this theme? Check out the "
+"extensive theme documentation on our website."
+msgstr ""
+"Χρειάζεστε βοήθεια για τις ρυθμίσεις και τη διαμόρφωση αυτού του θέματος; "
+"Ανατρέξτε στην εκτενή τεκμηρίωση θεμάτων στην ιστοσελίδα μας."
+
+#: functions/theme-help.php:64
+#, php-format
+msgid "View %s Documentation"
+msgstr "Προβολή %s τεκμηρίωσης"
+
+#: functions/theme-help.php:73
+#, php-format
+msgid "%s makes use of the Customizer for the theme settings."
+msgstr "%s κάνει χρήση του Προσαρμογέα για τις ρυθμίσεις του θέματος."
+
+#: functions/theme-help.php:77
+msgid "Customize Theme"
+msgstr "Προσαρμογή θέματος"
+
+#: functions/theme-help.php:83
+msgid "Upgrade"
+msgstr "Αναβάθμιση"
+
+#: functions/theme-help.php:90
+msgid "GO PRO"
+msgstr "GO PRO"
+
+#: functions/theme-help.php:112
+#, php-format
+msgid "%1$s is proudly brought to you by %2$s. If you like this theme, %3$s :)"
+msgstr ""
+"%1$s σας προσφέρεται περήφανα από %2$s. Αν σας άρεσε αυτό το θέμα, %3$s :)"
+
+#: functions/theme-help.php:112
+msgid "Trusted Review"
+msgstr "Έμπιστη αξιολόγηση"
+
+#: functions/theme-help.php:112
+msgid "rate it"
+msgstr "αξιολογήστε το"
+
+#: template-parts/content-none.php:11
+msgid "Nothing Found"
+msgstr "Δεν βρέθηκε τίποτα"
+
+#: template-parts/content-none.php:15
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Έτοιμοι να δημοσιεύσετε την πρώτη σας ανάρτηση; <a href=\"%1$s\">Αρχίστε "
+"εδώ</a>."
+
+#: template-parts/content-none.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Λυπούμαστε, αλλά δεν ταίριαξε τίποτα με τους όρους αναζήτησης. Παρακαλώ "
+"προσπαθήστε ξανά με διαφορετικές λέξεις-κλειδιά."
+
+#: template-parts/content-none.php:24
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Φαίνεται πως δεν μπορούμε να βρούμε αυτό που ψάχνετε. Ίσως βοηθήσει η "
+"αναζήτηση."
+
+#: template-parts/content-page.php:16 template-parts/content-single.php:21
+#: template-parts/content.php:34
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#: template-parts/content.php:40
+msgid "Continue Reading"
+msgstr "Συνέχεια ανάγνωσης"
+
+#. Theme Name of the plugin/theme
+msgid "Trusted"
+msgstr "Trusted"
+
+#. Theme URI of the plugin/theme
+msgid "http://uxlthemes.com/theme/trusted"
+msgstr "http://uxlthemes.com/theme/trusted"
+
+#. Author of the plugin/theme
+msgid "uXL Themes"
+msgstr "uXL Themes"
+
+#. Author URI of the plugin/theme
+msgid "http://uxlthemes.com"
+msgstr "http://uxlthemes.com"
